@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SignInSignUpUI</string>
+    <string-array name="planets_array">
+        <item>STUDENT</item>
+        <item>TEACHER</item>
+        
+    </string-array>
+</resources>
