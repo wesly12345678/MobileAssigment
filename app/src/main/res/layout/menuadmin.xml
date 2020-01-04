@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MAIN MENU"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="139dp"
+        android:layout_height="248dp"
+        android:layout_marginLeft="45dp"
+        android:alpha=".75"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_account_box_black_24dp"
+        />
+    <TextView
+        android:layout_width="139dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:text="Edit Profile"
+        android:layout_marginLeft="50dp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        />
+
+    <ImageView
+        android:id="@+id/folder"
+        android:layout_width="139dp"
+        android:layout_height="248dp"
+        android:layout_marginLeft="230dp"
+        android:alpha=".75"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_perm_contact_calendar_black_24dp" />
+
+    <TextView
+        android:layout_width="139dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:text="Teacher List"
+        android:layout_marginLeft="230dp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        />
+    <ImageView
+        android:id="@+id/forum"
+        android:layout_width="139dp"
+        android:layout_height="248dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="200dp"
+        android:alpha=".75"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_perm_contact_calendar_black_24dp"
+        />
+    <TextView
+        android:layout_width="139dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="400dp"
+        android:text="Student List"
+        android:layout_marginLeft="50dp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        />
+    <ImageView
+        android:id="@+id/report"
+        android:layout_width="139dp"
+        android:layout_height="248dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="200dp"
+        android:alpha=".75"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_content_paste_black_24dp"
+        />
+    <TextView
+        android:layout_width="139dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="400dp"
+        android:text="Report"
+        android:layout_marginLeft="230dp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        />
+    <ImageView
+        android:id="@+id/exam"
+        android:layout_width="139dp"
+        android:layout_height="248dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="400dp"
+        android:alpha=".75"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_assignment_black_24dp"
+        />
+    <TextView
+        android:layout_width="139dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="600dp"
+        android:text="Add Test"
+        android:layout_marginLeft="50dp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        />
+
+
+</RelativeLayout>
