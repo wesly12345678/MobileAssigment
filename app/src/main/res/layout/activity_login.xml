@@ -45,19 +45,20 @@
                 android:orientation="vertical"
                 android:layout_weight="4"
                 >
+
                 <EditText
+                    android:id="@+id/email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:drawablePadding="10dp"
-                    android:id="@+id/email"
-                    android:drawableLeft="@drawable/ic_person_black_24dp"
-                    android:layout_marginEnd="20dp"
                     android:layout_marginStart="20dp"
-                    android:hint="USERNAME"
+                    android:layout_marginEnd="20dp"
+                    android:drawableLeft="@drawable/ic_person_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:hint="EMAIL"
+                    android:inputType="textEmailAddress"
                     android:padding="20dp"
-                    android:textSize="14sp"
                     android:textColorHint="#606060"
-                    android:inputType="textEmailAddress"/>
+                    android:textSize="14sp" />
 
 
                 <EditText
@@ -83,13 +84,23 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginLeft="30dp" />
 
+                <Button
+                    android:id="@+id/btnForget"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="Forgot Password?"
+                    android:textAllCaps="false"
+                    android:layout_marginRight="20dp"
+                    android:background="@android:color/transparent"/>
+
                 <ImageButton
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_gravity="end"
                     android:layout_marginTop="50dp"
                     android:layout_marginEnd="25dp"
-                    android:id="@+id/signin"
+                    android:id="@+id/btnLogin"
                     android:src="@drawable/ic_arrow_forward_black_24dp"
                     android:background="@drawable/button_background"
                     android:layout_marginRight="25dp" />
@@ -120,7 +131,7 @@
                     android:layout_marginLeft="40dp"
                     android:layout_marginRight="40dp"
                     android:layout_marginTop="10dp"
-                    android:id="@+id/signup"
+                    android:id="@+id/btnSignUp"
                     android:background="@drawable/button_background"
                     android:text="SIGN UP"
                     android:textColor="@android:color/white" />
